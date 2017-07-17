@@ -1,0 +1,35 @@
+{
+  "title" : "Disegno 2D per il taglio laser",
+  "description" : "Il modulo affronta le tecniche di disegno 2D per il taglio laser a partire dalla realizzazione dei percorsi 2D.",
+  "author" : "fabctory <info@fabctory.com>",
+  "language" : "it",
+  "plugins" : [
+	"theme-fabctory",
+	"image-captions",
+	"youtube",
+	"-sharing",
+        "local-video"
+  ],
+  "structure": {
+    "glossary": "GLOSSARY.md"
+  },
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "links": {
+   "sidebar" : [
+     ["Torna a fabctory", "http://docs.fabctory.com"]
+   ]
+  },
+  "pdf" : {
+    "fontFamily" : "Helvetica",
+    "fontSize": 14
+  },
+  "pluginsConfig": {
+      "fontsettings": {
+          "theme": "white",
+          "family": "sans",
+          "size": 2
+      }
+   }
+}
